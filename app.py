@@ -18,7 +18,7 @@ def main():
     st.title("CLASSIFICATION MEDICAL DICOM")
     st.sidebar.title("Configuration")
 
-    dicom_bytes = st.sidebar.file_uploader("Upload DICOM file", type=["dcm","dicom"])
+    dicom_bytes = st.sidebar.file_uploader("Upload DICOM file", type=["dcm","dicom","jpg","png"])
 
     # Config
     classes = ['Aortic enlargement ', 'Covid', 'Opacity', 'Normal']
