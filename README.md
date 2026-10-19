@@ -19,7 +19,7 @@ I focus on building reliable, end-to-end AI systems—taking LLM agents, Retriev
 
 ## Technical Skills
 
-- **LLM Applications & AI Agents:** LangGraph, LangChain, Multi-Step Agent Workflows, Tool Calling, Model Context Protocol (MCP), Prompt Design, Local LLMs (Qwen 2.5, Ollama)
+- **LLM Applications & AI Agents:** LangGraph, LangChain, Multi-Step Agent Workflows, Prompt Design, Local LLMs (Qwen 2.5, Ollama)
 - **RAG & Knowledge Retrieval:** Hybrid Search (BM25 + Dense), BGE-M3 Embeddings, Reciprocal Rank Fusion (RRF), Cross-Encoder Reranking, Context and Citation Selection
 - **Backend, Frontend & Data:** Python, FastAPI, C#, .NET / ASP.NET Core, TypeScript, React, REST APIs, PostgreSQL, SQL Server, SQLite
 - **AI Guardrails, Testing & Delivery:** Read-Only SQL Authorizers, Input/SQL Validation, PII Redaction, Execution Timeouts, Rate Limiting, pytest, xUnit, Vitest, Playwright, Docker, GitHub Actions CI/CD
