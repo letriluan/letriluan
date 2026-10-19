@@ -1,31 +1,35 @@
-# Hi, I'm Tri Luan Le
+# Hi, I'm Tri Luan Le 👋
 
-AI and software engineering graduate based in Adelaide, Australia. I hold a Master of Artificial Intelligence and Machine Learning from the University of Adelaide, with experience in full-stack healthcare software development and multimodal computer vision research.
+**AI Engineer & Software Developer** based in Adelaide, SA.  
+I hold a **Master of Artificial Intelligence and Machine Learning** from The University of Adelaide (GPA 6.714/7.0, Top 15%), with industry experience in enterprise C#/.NET healthcare software and applied AI research.
 
-I enjoy building backend services, connecting AI models to useful applications, and investigating how well those systems work.
+I focus on building reliable, end-to-end AI systems—taking LLM agents, Retrieval-Augmented Generation (RAG) pipelines, and deep learning models from research prototypes to tested, containerised backend services.
 
-## Selected projects
+---
 
-| Project | What I built | Technologies |
-| --- | --- | --- |
-| [AI-Powered SQL Agent](https://github.com/letriluan/AI-Agent-Chatbot) | A natural-language interface to relational data, with SQL repair, caching and chart generation | Python, FastAPI, LangGraph, SQLite |
-| [Multimodal Object Detection](https://github.com/letriluan/Multi-modal_Object_Detection) | Experiments comparing early, intermediate and late fusion of visible and infrared images | PyTorch, YOLOv5, OpenCV |
-| [Research AI Agent](https://github.com/letriluan/Search_Summary) | A Streamlit application that coordinates research planning, web search and report writing | Python, CrewAI, Streamlit |
-| [DICOM Image Classification](https://github.com/letriluan/CNNs-for-DICOM-16bit-classifications) | Undergraduate research exploring chest X-ray classification and DICOM image preprocessing | TensorFlow, Keras, pydicom |
+## Featured AI & Engineering Projects
 
-## Technical background
+| Project | Live App | What I Built | Stack |
+| :--- | :--- | :--- | :--- |
+| **[AI-Powered Database Chatbot](https://github.com/letriluan/AI-Agent-Chatbot)** | **[Live Demo ↗](https://ai-agent-chatbot-demo.onrender.com/)** | Multi-step **LangGraph** SQL analytics agent over **99,441 e-commerce orders (9 tables)** with error-driven query repair, 3-level SQLite caching, read-only SQLite authorizer & PII guardrails, Matplotlib chart generation, and **161 automated pytest checks**. | `Python` `FastAPI` `LangGraph` `LangChain` `SQLite` `Docker` |
+| **[AI Legal Assistant](https://github.com/letriluan/AI-Legal-Assistant)** | **[Live Preview ↗](https://ai-legal-assistant-preview.onrender.com/)** | End-to-end **Hybrid RAG** system indexing **71,050 business-law articles**, combining dual BM25 and **BGE-M3** dense embeddings (`71,050 × 1,024`), two-stage Reciprocal Rank Fusion (RRF), **Cross-Encoder reranking**, and grounded citation verification. | `Python` `FastAPI` `BM25` `BGE-M3` `BGE Reranker` `Ollama` `Docker` |
+| **[Multimodal Object Detection](https://github.com/letriluan/Multi-modal_Object_Detection)** | — | Applied computer vision research at **AIML** extending YOLOv5 for dual-modality (Visible + Infrared) inputs, benchmarking early, intermediate, and probabilistic late-fusion architectures (`mAP@0.5`). | `Python` `PyTorch` `YOLOv5` `OpenCV` `NumPy` |
+| **[Research AI Agent](https://github.com/letriluan/Search_Summary)** | — | Multi-agent research assistant coordinating automated query planning, web search retrieval, and structured report synthesis. | `Python` `CrewAI` `Streamlit` |
 
-- **Software:** Python, C#, TypeScript, SQL, FastAPI, ASP.NET Core and React.
-- **Applied AI:** LLM API integration, LangGraph, LangChain, retrieval-augmented generation and agent workflows.
-- **Machine learning:** PyTorch, TensorFlow, scikit-learn, computer vision and natural language processing.
-- **Data and delivery:** SQL Server, PostgreSQL, SQLite, Git, Docker, automated testing and CI/CD.
+---
 
-## Experience
+## Technical Skills
 
-- **Software Engineering Intern, Altera Digital Health:** developed APIs, full-stack features and data workflows using .NET, React and relational databases; contributed automated validation and testing.
-- **AI/ML Project Intern, Australian Institute for Machine Learning:** implemented and evaluated visible/infrared object detection pipelines.
-- **Teaching Assistant, University of Adelaide:** supported mathematics for data science tutorials and practicals.
+- **LLM Applications & AI Agents:** LangGraph, LangChain, Multi-Step Agent Workflows, Tool Calling, Model Context Protocol (MCP), Prompt Design, Local LLMs (Qwen 2.5, Ollama)
+- **RAG & Knowledge Retrieval:** Hybrid Search (BM25 + Dense), BGE-M3 Embeddings, Reciprocal Rank Fusion (RRF), Cross-Encoder Reranking, Grounded Citation Selection
+- **Backend, Frontend & Data:** Python, FastAPI, C#, .NET / ASP.NET Core, TypeScript, React, REST APIs, PostgreSQL, SQL Server, SQLite
+- **AI Guardrails, Testing & Delivery:** Read-Only SQL Authorizers, Input/SQL Validation, PII Redaction, Execution Timeouts, Rate Limiting, pytest, xUnit, Vitest, Playwright, Docker, GitHub Actions CI/CD
+- **Applied Machine Learning:** PyTorch, NumPy, OpenCV, YOLOv5, Model Evaluation, Failure Analysis
 
-I'm interested in graduate and junior opportunities across software engineering, applied AI and machine learning.
+---
 
-[LinkedIn](https://www.linkedin.com/in/tri-luan-le-5399241ba/) · [Email](mailto:letriluan12345@gmail.com)
+## Connect with Me
+
+- **LinkedIn:** [linkedin.com/in/tri-luan-le-5399241ba](https://www.linkedin.com/in/tri-luan-le-5399241ba/)
+- **Email:** [letriluan12345@gmail.com](mailto:letriluan12345@gmail.com)
+- **Location:** Adelaide, South Australia
