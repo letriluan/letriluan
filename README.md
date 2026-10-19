@@ -12,7 +12,7 @@ I focus on building reliable, end-to-end AI systems—taking LLM agents, Retriev
 | Project | Live App | What I Built | Stack |
 | :--- | :--- | :--- | :--- |
 | **[AI-Powered Database Chatbot](https://github.com/letriluan/AI-Agent-Chatbot)** | **[Live Demo ↗](https://ai-agent-chatbot-demo.onrender.com/)** | Multi-step **LangGraph** SQL analytics agent over **99,441 e-commerce orders (9 tables)** with error-driven query repair, 3-level SQLite caching, read-only SQLite authorizer & PII guardrails, Matplotlib chart generation, and **161 automated pytest checks**. | `Python` `FastAPI` `LangGraph` `LangChain` `SQLite` `Docker` |
-| **[AI Legal Assistant](https://github.com/letriluan/AI-Legal-Assistant)** | **[Live Preview ↗](https://ai-legal-assistant-preview.onrender.com/)** | End-to-end **Hybrid RAG** system indexing **71,050 business-law articles**, combining dual BM25 and **BGE-M3** dense embeddings (`71,050 × 1,024`), two-stage Reciprocal Rank Fusion (RRF), **Cross-Encoder reranking**, and grounded citation verification. | `Python` `FastAPI` `BM25` `BGE-M3` `BGE Reranker` `Ollama` `Docker` |
+| **[AI Legal Assistant](https://github.com/letriluan/AI-Legal-Assistant)** | **[Live Preview ↗](https://ai-legal-assistant-preview.onrender.com/)** | End-to-end **Hybrid RAG** system indexing **71,050 business-law articles**, combining dual BM25 and **BGE-M3** dense embeddings (`71,050 × 1,024`), two-stage Reciprocal Rank Fusion (RRF), **Cross-Encoder reranking**, and citation selection. | `Python` `FastAPI` `BM25` `BGE-M3` `BGE Reranker` `Ollama` `Docker` |
 | **[Multimodal Object Detection](https://github.com/letriluan/Multi-modal_Object_Detection)** | — | Applied computer vision research at **AIML** extending YOLOv5 for dual-modality (Visible + Infrared) inputs, benchmarking early, intermediate, and probabilistic late-fusion architectures (`mAP@0.5`). | `Python` `PyTorch` `YOLOv5` `OpenCV` `NumPy` |
 
 ---
@@ -20,7 +20,7 @@ I focus on building reliable, end-to-end AI systems—taking LLM agents, Retriev
 ## Technical Skills
 
 - **LLM Applications & AI Agents:** LangGraph, LangChain, Multi-Step Agent Workflows, Tool Calling, Model Context Protocol (MCP), Prompt Design, Local LLMs (Qwen 2.5, Ollama)
-- **RAG & Knowledge Retrieval:** Hybrid Search (BM25 + Dense), BGE-M3 Embeddings, Reciprocal Rank Fusion (RRF), Cross-Encoder Reranking, Grounded Citation Selection
+- **RAG & Knowledge Retrieval:** Hybrid Search (BM25 + Dense), BGE-M3 Embeddings, Reciprocal Rank Fusion (RRF), Cross-Encoder Reranking, Context and Citation Selection
 - **Backend, Frontend & Data:** Python, FastAPI, C#, .NET / ASP.NET Core, TypeScript, React, REST APIs, PostgreSQL, SQL Server, SQLite
 - **AI Guardrails, Testing & Delivery:** Read-Only SQL Authorizers, Input/SQL Validation, PII Redaction, Execution Timeouts, Rate Limiting, pytest, xUnit, Vitest, Playwright, Docker, GitHub Actions CI/CD
 - **Applied Machine Learning:** PyTorch, NumPy, OpenCV, YOLOv5, Model Evaluation, Failure Analysis
